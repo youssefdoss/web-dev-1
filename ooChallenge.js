@@ -30,6 +30,10 @@ class Vehicle {
 /**
  * Car: extends vehicle (e.g. includes make, model, and year). Has additional property
  * describing number of wheels set at 4.
+ * 
+ * make: string
+ * model: string
+ * year: number
  */
 class Car extends Vehicle {
     constructor(make, model, year) {
@@ -41,6 +45,10 @@ class Car extends Vehicle {
 /**
  * Motorcycle: extends Vehicle (e.g. includes make, model, and year). Has additional
  * property describing number of wheels set at 2
+ * 
+ * make: string
+ * model: string
+ * year: string
  */
 class Motorcycle extends Vehicle {
     constructor(make, model, year) {

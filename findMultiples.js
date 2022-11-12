@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * findNumFreqs: Creates a frequency counter for the number of times
  * each number appears in the given array

@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * sortAlmostSorted: takes an array of almost sorted numbers with
  * one pair of numbers out of order and returns a sorted array

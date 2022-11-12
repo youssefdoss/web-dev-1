@@ -1,3 +1,5 @@
+'use strict';
+
 describe("#findMultiples", function () {
   it("finds all values of the input that appear more than the minimum number of times", function () {
     expect(findMultiples([5, 6, 7, 5, 6, 5], 1)).toEqual([5, 6, 7]);

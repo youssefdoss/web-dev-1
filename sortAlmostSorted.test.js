@@ -1,3 +1,5 @@
+'use strict';
+
 describe("#sortAlmostSorted", function () {
   it("sorts the array correctly", function () {
     expect(sortAlmostSorted([1, 2, 3, 7, 5, 6, 4])).toEqual([1, 2, 3, 4, 5, 6, 7]);

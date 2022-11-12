@@ -26,16 +26,14 @@ function findNumFreqs(nums) {
  * 
  * return: array
  */
-
-// TODO: MAKE IT RUN FASTER IT CAN'T USE INCLUDES
 function findMultiples(nums, minimumCount) {
     const numFreqs = findNumFreqs(nums);
     let numerousNums = [];
 
-    for (let num of nums) {
+    for (let numKey in numFreqs) {
 
-        if (numFreqs[num] >= minimumCount && !numerousNums.includes(num)) {
-            numerousNums.push(num);
+        if (numFreqs[numKey] >= minimumCount) {
+            numerousNums.push(+numKey);
         }
     }
 
